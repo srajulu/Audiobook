@@ -12,3 +12,4 @@ for num in range(0,pages):
   text = page.extractText()
   player = pyttsx3.init()
   player.say(text)
+  player.runAndWait()
