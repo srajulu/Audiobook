@@ -3,4 +3,4 @@ import PyPDF2
 from tkinter.filedialog import *
 
 book = askopenfilename()
-pdfreader 
+pdfreader = PyPDF2.PdfFileReader(book)
