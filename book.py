@@ -4,3 +4,4 @@ from tkinter.filedialog import *
 
 book = askopenfilename()
 pdfreader = PyPDF2.PdfFileReader(book)
+pages = pdfreader.numpages
