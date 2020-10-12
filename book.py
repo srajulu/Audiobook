@@ -13,3 +13,6 @@ for num in range(0,pages):
   player = pyttsx3.init()
   player.say(text)
   player.runAndWait()
+
+  
+  
