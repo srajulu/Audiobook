@@ -14,8 +14,3 @@ for num in range(0,pages):
   player.say(text)
   player.runAndWait()
 
-  
-  
-
-  
-  
